@@ -1,0 +1,95 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #98c1d9;
+}
+
+h3 {
+    font-style: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 3fr;
+    gap: 1.5em;
+}
+
+.contact li {
+    padding-top: 5px;
+    padding-left: 0px;
+}
+.contact ul {
+    padding-left: 5px;
+    list-style: none;
+}
+
+.hobbies {
+    margin-bottom: 0px;
+}
+.hobbies span{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+.grid-item-1 prof{
+    text-align: justify;
+}
+.hobbies ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.hobbies i {
+    padding: 10px;
+    color: #ee6c4d;
+}
+
+hr {
+    border-color: #ee6c4d;
+    border-radius: 100%;
+    border-width: 1px;
+}
+
+.grid-item-1 img {
+    padding-left: 30%;
+    width: 50%;
+    height: 33%;
+}
+
+.contact a {
+    color: #ee6c4d;
+    padding: 10px;
+}
+
+
+.grid-item-1 {
+    background-color: #293241;
+    padding: 10px;
+    color: #e0fbfc;
+}
+
+
+.skills {
+    border-color: black;
+    text-align: left;
+    border-top: 5px;
+    
+}
+
+.skills ul {
+    padding: 15px;
+}
+
+.grid-item-2 {
+    background-color: #293241;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: #e0fbfc;
+}
+
+.grid-item-2 h2 {
+    border-bottom: #ee6c4d;
+    border-width: 5px;
+}
