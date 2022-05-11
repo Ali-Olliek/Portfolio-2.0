@@ -10,13 +10,14 @@ h3 {
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 200%;
     gap: 1.5em;
 }
 
 .contact li {
     padding-top: 5px;
     padding-left: 0px;
+
 }
 .contact ul {
     padding-left: 5px;
@@ -90,6 +91,10 @@ hr {
 }
 
 .grid-item-2 h2 {
-    border-bottom: #ee6c4d;
-    border-width: 5px;
+    font-size: 40px;
+}
+
+.grid-item-2 p, ul, td {
+    font-size: 20px;
+    text-align: justify;
 }
